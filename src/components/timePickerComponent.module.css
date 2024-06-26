@@ -1,0 +1,28 @@
+/* CustomTimePicker.module.css */
+.timePicker {
+  display: flex;
+  flex-direction: column;
+}
+
+.timePickerInput {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+
+.select {
+  appearance: none;
+  border: none;
+  background-color: #fff;
+  padding: 5px;
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.select:focus {
+  outline: none;
+}
