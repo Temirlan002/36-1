@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postsReducer from './PostsSlice'
+// import postsReducer from './PostsSlice';
+import aboutReducer from './AboutSlice'
 import logger from "redux-logger";
 
 export const store = configureStore({
     reducer: {
-        postsReducer
+        // postsReducer,
+        aboutReducer
     },
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger)
+    // middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger)
 })
