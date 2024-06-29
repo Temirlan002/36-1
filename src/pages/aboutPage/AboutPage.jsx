@@ -26,7 +26,7 @@ function AboutPage() {
           <button>add</button>
           <p>{inputValue}</p> */}
           
-          <div style={{display: 'flex', flexWrap: 'wrap'}}>
+          <div style={{display: 'flex', flexWrap: 'unset'}}>
             {users.map((user, idx) => <UsersCard key={idx} userInfo={user} />)}
           </div>
       </div>
